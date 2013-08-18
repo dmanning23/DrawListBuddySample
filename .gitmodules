@@ -10,9 +10,6 @@
 [submodule "externals/MonoGame"]
 	path = externals/MonoGame
 	url = https://github.com/dmanning23/MonoGame.git
-[submodule "externals/Filename"]
-	path = externals/Filename
-	url = https://github.com/dmanning23/Filename.git
 [submodule "externals/FontBuddy"]
 	path = externals/FontBuddy
 	url = https://github.com/dmanning23/FontBuddy.git
