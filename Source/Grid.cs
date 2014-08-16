@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Content;
 using System.Collections.Generic;
 using HadoukInput;
 using DrawListBuddy;
+using RenderBuddy;
 
 namespace DrawListBuddySample
 {
@@ -15,7 +16,7 @@ namespace DrawListBuddySample
 		#region Members
 
 		//The four grids we are gonna display
-		public List<Texture2D> Grids { get; private set; }
+		public List<ITexture> Grids { get; private set; }
 
 		//the levels of the four grids
 		public List<int> Levels { get; private set; }
@@ -33,7 +34,7 @@ namespace DrawListBuddySample
 		public Grid()
 		{
 			Levels = new List<int>();
-			Grids = new List<Texture2D>();
+			Grids = new List<ITexture>();
 			GridColors = new List<Color>();
 		}
 
@@ -47,7 +48,7 @@ namespace DrawListBuddySample
 			for (int i = 0; i < 4; i++)
 			{
 				//load four grids
-				Grids.Add(content.Load<Texture2D>("grid.png"));
+				Grids.Add(new XNATexture(content.Load<Texture2D>("grid.png")));
 
 				//add four 0's for their levels
 				Levels.Add(0);
@@ -66,22 +67,22 @@ namespace DrawListBuddySample
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		public void Update(InputWrapper input)
 		{
-			if (input.Controller.KeystrokePress[(int)EKeystroke.A])
+			if (input.Controller.CheckKeystroke(EKeystroke.A))
 			{
 				Levels[0]--;
 			}
 
-			if (input.Controller.KeystrokePress[(int)EKeystroke.B])
+			if (input.Controller.CheckKeystroke(EKeystroke.B))
 			{
 				Levels[1]--;
 			}
 
-			if (input.Controller.KeystrokePress[(int)EKeystroke.X])
+			if (input.Controller.CheckKeystroke(EKeystroke.X))
 			{
 				Levels[2]--;
 			}
 
-			if (input.Controller.KeystrokePress[(int)EKeystroke.Y])
+			if (input.Controller.CheckKeystroke(EKeystroke.Y))
 			{
 				Levels[3]--;
 			}

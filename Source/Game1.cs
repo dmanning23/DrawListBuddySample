@@ -7,6 +7,7 @@ using DrawListBuddy;
 using GameTimer;
 using HadoukInput;
 using FontBuddyLib;
+using RenderBuddy;
 
 namespace DrawListBuddySample
 {
@@ -39,7 +40,7 @@ namespace DrawListBuddySample
 		/// <summary>
 		/// the renderer we will use for darwing
 		/// </summary>
-		Renderer _Renderer;
+		XNARenderer _Renderer;
 
 		//the drawlist we are gonn ause to srot everything
 		DrawList _DrawList;
@@ -56,12 +57,12 @@ namespace DrawListBuddySample
 
 			_clock = new GameClock();
 			_inputState = new InputState();
-			_inputWrapper = new InputWrapper(PlayerIndex.One, _clock.GetCurrentTime);
+			_inputWrapper = new InputWrapper(new ControllerWrapper(PlayerIndex.One, true), _clock.GetCurrentTime);
 			_inputWrapper.Controller.UseKeyboard = true;
 			_font = new FontBuddy();
 
 			//setup the renderer
-			_Renderer = new Renderer(this);
+			_Renderer = new XNARenderer(this);
 			_DrawList = new DrawList();
 			_Grid = new Grid();
 		}
@@ -85,9 +86,7 @@ namespace DrawListBuddySample
 		/// </summary>
 		protected override void LoadContent()
 		{
-			_Renderer.LoadContent(graphics.GraphicsDevice, 
-			                      graphics.GraphicsDevice.Viewport.Bounds, 
-			                      graphics.GraphicsDevice.Viewport.TitleSafeArea);
+			_Renderer.LoadContent(graphics.GraphicsDevice);
 
 			_Grid.LoadContent(_Renderer.Content);
 
