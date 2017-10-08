@@ -28,8 +28,6 @@ namespace DrawListBuddySample.Android
 		{
 			global::CameraBuddy.Android.Resource.String.ApplicationName = global::DrawListBuddySample.Android.Resource.String.ApplicationName;
 			global::CameraBuddy.Android.Resource.String.Hello = global::DrawListBuddySample.Android.Resource.String.Hello;
-			global::DrawListBuddy.Android.Resource.String.ApplicationName = global::DrawListBuddySample.Android.Resource.String.ApplicationName;
-			global::DrawListBuddy.Android.Resource.String.Hello = global::DrawListBuddySample.Android.Resource.String.Hello;
 			global::FilenameBuddy.Android.Resource.String.ApplicationName = global::DrawListBuddySample.Android.Resource.String.ApplicationName;
 			global::FilenameBuddy.Android.Resource.String.Hello = global::DrawListBuddySample.Android.Resource.String.Hello;
 			global::FontBuddyLib.Android.Resource.String.ApplicationName = global::DrawListBuddySample.Android.Resource.String.ApplicationName;

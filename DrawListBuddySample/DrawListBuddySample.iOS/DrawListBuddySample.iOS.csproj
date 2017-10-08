@@ -106,8 +106,8 @@
       <HintPath>..\packages\CameraBuddy.1.0.2\lib\Xamarin.iOS10\CameraBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DrawlistBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DrawlistBuddy.1.0.9\lib\Xamarin.iOS10\DrawlistBuddy.iOS.dll</HintPath>
+    <Reference Include="DrawListBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DrawlistBuddy.1.0.12\lib\Xamarin.iOS10\DrawListBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FilenameBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
