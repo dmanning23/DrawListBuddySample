@@ -1,12 +1,10 @@
-using System;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.Input;
 using DrawListBuddy;
+using FontBuddyLib;
 using GameTimer;
 using HadoukInput;
-using FontBuddyLib;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using RenderBuddy;
 
 namespace DrawListBuddySample

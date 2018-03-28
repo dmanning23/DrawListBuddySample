@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawListBuddySample.Android", "DrawListBuddySample.Android\DrawListBuddySample.Android.csproj", "{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}"
 EndProject
@@ -68,7 +68,6 @@ Global
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|iPhone.Deploy.0 = Debug|Any CPU
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{7FC4296B-09F2-4134-ADC3-DCF7F3563EE6}.Debug|x86.Build.0 = Debug|Any CPU
@@ -97,7 +96,8 @@ Global
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.AppStore|x86.ActiveCfg = AppStore|iPhone
-		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|iPhone.Build.0 = Debug|iPhone
 		{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -139,5 +139,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B2931DB-F0FB-4BCF-81F4-A2465D60CB30}
 	EndGlobalSection
 EndGlobal
