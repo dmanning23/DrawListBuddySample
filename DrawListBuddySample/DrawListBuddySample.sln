@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawListBuddySample.Android
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawListBuddySample.iOS", "DrawListBuddySample.iOS\DrawListBuddySample.iOS.csproj", "{18666E72-2D4A-4AF2-B860-5780FAB8E9B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawListBuddySample.DesktopGL", "DrawListBuddySample.DesktopGL\DrawListBuddySample.DesktopGL.csproj", "{3E8631BE-ED02-47AF-A425-FC7C938A68C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawListBuddySample.WindowsDX", "DrawListBuddySample.DesktopGL\DrawListBuddySample.WindowsDX.csproj", "{3E8631BE-ED02-47AF-A425-FC7C938A68C5}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrawListBuddySample.SharedProject", "DrawListBuddySample.SharedProject\DrawListBuddySample.SharedProject.shproj", "{F5F1AD04-693D-4BF3-AB97-5C031AA98AD3}"
 EndProject

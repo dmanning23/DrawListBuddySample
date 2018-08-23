@@ -51,7 +51,9 @@ namespace DrawListBuddySample
 		{
 			graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";
-			graphics.IsFullScreen = true;
+			graphics.IsFullScreen = false;
+			graphics.GraphicsProfile = GraphicsProfile.HiDef;
+			graphics.ApplyChanges();
 
 			_clock = new GameClock();
 			_inputState = new InputState();
